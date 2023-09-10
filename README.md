@@ -1,33 +1,80 @@
-# Project
+# RTP-LX
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+_Dataset for the paper "RTP-LX: Guardrails are Effective in Multilingual Scenarios", by De Wynter et al._
 
-As the maintainer of this project, please make a few updates:
+_NOTE: this is a work in progress. Expect this to be updated soon!_
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+
+**WARNING: This repository contains and discusses content that is offensive or upsetting. All materials are intended to support research that improves toxicity and prompt injection detection methods. Included examples of toxicity and prompt injection do not represent how the authors or sponsors feel about any identity groups. Please note that toxicity is dynamic, evolves with societal perceptions, and these labels may be outdated eventually.**
+
+## What is RTP-LX?
+RTP LX is a multilingual set of 1k+ (per locale) toxic prompts and passages designed for toxicity evaluation. It is manually translated from a subset of the original RTP dataset, and annotated by native speakers. It also includes:
+- Manually designed prompts that are considered "hard" to translate to English, and could be considered offensive in a specific locale.
+- Translations may include dialect-specific indications (e.g., Levantine Arabic, Brazilian Portuguese)
+
+
+## Languages covered
+RTP-LX currently covers 24 languages:
+
+- Arabic (Levantine, Egyptian, Saudi)
+- Chinese (simplified)
+- Czech
+- Dutch
+- French (France)
+- German
+- Italian
+- Portuguese (Brazilian)
+- Russian
+- Spanish (Spain)
+- Ukrainian
+
+
+## Harm Categories
+RTP-LX is annotated in the following categories:
+- Bias
+- Insult
+- Identity Attack
+- Microagression
+- Violence
+- Self-harm
+- Sexual content
+- Overall toxicity
+
+## Citation
+
+If you use our work, please consider citing our paper
+
+```
+@misc{rtplx,
+    author = {Adrian de Wynter and Noura Farra and and Lena Baur and Samantha Claudet and Pavel Gadusek and Qilong Gu and Luciano Strika and Davide Turcato and Alex Vakhno and Stephanie Visser and Minghui Zhang and Xun Wang and Si-Qing Chen},
+    title = {{RTP-LX}: Guardrails are Effective in Multilingual Scenarios},
+    volume = {ArXiv},
+    year = 2023
+}
+```
+
+along with the original RTP paper:
+
+```
+@inproceedings{gehman-etal-2020-realtoxicityprompts,
+    title = "{R}eal{T}oxicity{P}rompts: Evaluating Neural Toxic Degeneration in Language Models",
+    author = "Gehman, Samuel  and
+      Gururangan, Suchin  and
+      Sap, Maarten  and
+      Choi, Yejin  and
+      Smith, Noah A.",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2020",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.findings-emnlp.301",
+    doi = "10.18653/v1/2020.findings-emnlp.301",
+    pages = "3356--3369",
+}
+```
+
 
 ## Contributing
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
-
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
-
-## Trademarks
-
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
+See [here](CONTRIBUTING.md).
