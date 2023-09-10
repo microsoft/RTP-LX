@@ -5,7 +5,7 @@ _Dataset for the paper "RTP-LX: Guardrails are Effective in Multilingual Scenari
 _NOTE: this is a work in progress. Expect this to be updated soon!_
 
 
-**WARNING: This repository contains and discusses content that is offensive or upsetting. All materials are intended to support research that improves toxicity and prompt injection detection methods. Included examples of toxicity and prompt injection do not represent how the authors or sponsors feel about any identity groups. Please note that toxicity is dynamic, evolves with societal perceptions, and these labels may be outdated eventually.**
+**WARNING: This repository contains and discusses content that is offensive or upsetting. All materials are intended to support research that improves toxicity detection methods. Included examples of toxicity do not represent how the authors or sponsors feel about any identity groups. Please note that toxicity is dynamic, evolves with societal perceptions, and these labels may change.**
 
 ## What is RTP-LX?
 RTP LX is a multilingual set of 1k+ (per locale) toxic prompts and passages designed for toxicity evaluation. It is manually translated from a subset of the original RTP dataset, and annotated by native speakers. It also includes:
