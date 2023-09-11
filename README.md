@@ -46,7 +46,7 @@ If you use our work, please consider citing our paper
 
 ```
 @misc{rtplx,
-    author = {Adrian de Wynter and Noura Farra and and Lena Baur and Samantha Claudet and Pavel Gadusek and Qilong Gu and Luciano Strika and Davide Turcato and Alex Vakhno and Stephanie Visser and Minghui Zhang and Xun Wang and Si-Qing Chen},
+    author = {Adrian de Wynter and Noura Farra and and Lena Baur and Samantha Claudet and Pavel Gajdusek and Qilong Gu and Luciano Strika and Davide Turcato and Alex Vakhno and Stephanie Visser and Minghui Zhang and Xun Wang and Si-Qing Chen},
     title = {{RTP-LX}: Guardrails are Effective in Multilingual Scenarios},
     volume = {ArXiv},
     year = 2023
