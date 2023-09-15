@@ -9,7 +9,7 @@ _NOTE: this is a work in progress. Expect this to be updated soon!_
 
 ## What is RTP-LX?
 RTP LX is a multilingual set of 1k+ (per locale) toxic prompts and passages designed for toxicity evaluation. It is manually translated from a subset of the original RTP dataset, and annotated by native speakers. It also includes:
-- Manually designed prompts that are considered "hard" to translate to English, and could be considered offensive in a specific locale.
+- Manually designed prompts that are considered "hard" to translate to English, and could be considered offensive in the language's geolocale.
 - Translations may include dialect-specific indications (e.g., Levantine Arabic, Brazilian Portuguese)
 
 
@@ -17,15 +17,28 @@ RTP LX is a multilingual set of 1k+ (per locale) toxic prompts and passages desi
 RTP-LX currently covers 24 languages:
 
 - Arabic (Levantine, Egyptian, Saudi)
-- Chinese (simplified)
+- Chinese (simplified, traditional)
 - Czech
+- Danish
 - Dutch
+- Finnish
 - French (France)
 - German
+- Hebrew
+- Hindi
+- Hungarian
+- Indonesian
 - Italian
-- Portuguese (Brazilian)
+- Japanese
+- Korean
+- Norwegian (Bokmål)
+- Polish
+- Portuguese (Brazilian, Portugal)
 - Russian
 - Spanish (Spain)
+- Swedish
+- Thai
+- Turkish
 - Ukrainian
 
 
@@ -46,7 +59,7 @@ If you use our work, please consider citing our paper
 
 ```
 @misc{rtplx,
-    author = {Adrian de Wynter and Noura Farra and and Lena Baur and Samantha Claudet and Pavel Gajdusek and Qilong Gu and Luciano Strika and Davide Turcato and Alex Vakhno and Stephanie Visser and Minghui Zhang and Xun Wang and Si-Qing Chen},
+    author = {Adrian de Wynter and Noura Farra and Nektar Altintoprak and Lena Baur and Samantha Claudet and Pavel Gajdusek and Qilong Gu and Yael Haas and Tomasz Kaminski and Ruby Kuo and Kartik Mathur and Petter Merok and Henrik Metzger and Vesa-Matti Paananen and Anna Pavlenko and Bruno Pereira Vidal and Luciano Strika and Davide Turcato and Anna Vickers and Stephanie Visser and Alex Vakhno Judit Velcsov and and Stephanie Visser and Herdyan Widarmanto and Tua Wongsangaroonsri and Minghui Zhang and Xun Wang and Si-Qing Chen},
     title = {{RTP-LX}: Guardrails are Effective in Multilingual Scenarios},
     volume = {ArXiv},
     year = 2023
