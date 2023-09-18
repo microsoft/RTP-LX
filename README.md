@@ -62,7 +62,7 @@ If you use our work, please consider citing our paper
     author = {Adrian de Wynter and Noura Farra and Nektar Altintoprak and Lena Baur and Samantha Claudet and
               Pavel Gajdusek and Qilong Gu and Yael Haas and Tomasz Kaminski and Ruby Kuo and Kartik Mathur and
               Petter Merok and Henrik Metzger and Vesa-Matti Paananen and Anna Pavlenko and Bruno Pereira Vidal and
-              Luciano Strika and Davide Turcato and Anna Vickers and Stephanie Visser and Alex Vakhno Judit Velcsov and
+              Luciano Strika and Davide Turcato and Anna Vickers and Stephanie Visser and Oleksandr Vakhno and Judit Velcsov and
               Stephanie Visser and Herdyan Widarmanto and Tua Wongsangaroonsri and Andrey Zaikin and Minghui Zhang and
               Xun Wang and Si-Qing Chen},
     title = {{RTP-LX}: Guardrails are Effective in Multilingual Scenarios},
