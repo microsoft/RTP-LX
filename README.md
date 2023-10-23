@@ -92,6 +92,42 @@ along with the original RTP paper:
 }
 ```
 
+The components for Hebrew, Danish and Brazilian Portuguese come from the [Offensive Hebrew Corpus](https://github.com/SinaLab/OffensiveHebrew/tree/main), [DKHate](https://aclanthology.org/2020.lrec-1.430/) and [ToLD-BR](https://github.com/JAugusto97/ToLD-Br) corpora, respectively. Please consider citing their work as well:
+
+```
+@inproceedings{
+  title = {Offensive {H}ebrew Corpus and Detection using {BERT}},
+  author = {Nagham Hamad and Mustafa Jarrar and Mohammed Khalilia and Nadim Nashif},
+  booktitle = {The 20th ACS/IEEE International Conference on Computer Systems and Applications (AICCSA)},
+  year = {2023},
+  publisher = {IEEE},
+  address = {Egypt}
+}
+
+@inproceedings{sigurbergsson-derczynski-2020-offensive,
+    title = "Offensive Language and Hate Speech Detection for {D}anish",
+    author = "Sigurbergsson, Gudbjartur Ingi  and
+      Derczynski, Leon",
+    booktitle = "Proceedings of the Twelfth Language Resources and Evaluation Conference",
+    month = may,
+    year = "2020",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2020.lrec-1.430",
+    pages = "3498--3508",
+    language = "English",
+    ISBN = "979-10-95546-34-4",
+}
+
+@inproceedings{ToLDBR,
+  author = {Jo\~{a}o A. Leite and Diego F. Silva and Kalina Bontcheva and Carolina Scarton},
+  title = {Toxic Language Detection in Social Media for {B}razilian {P}ortuguese: {N}ew Dataset and Multilingual Analysis},
+  booktitle = {AACL-IJCNLP},
+  year = {2020}
+}
+ ```
+
+
 
 ## Contributing
 
