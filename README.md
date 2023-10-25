@@ -60,8 +60,8 @@ If you use our work, please consider citing our paper
 ```
 @misc{rtplx,
     author = {Adrian de Wynter and Noura Farra and Nektar Altintoprak and Lena Baur and Samantha Claudet and
-              Pavel Gajdusek and Qilong Gu and Anna Kaminska and Tomasz Kaminski and Ruby Kuo and Akiko Kyuba and Kartik Mathur and
-              Petter Merok and Nani Paananen and Vesa-Matti Paananen and Anna Pavlenko and Bruno Pereira Vidal and
+              Pavel Gajdusek and Qilong Gu and Anna Kaminska and Tomasz Kaminski and Ruby Kuo and Akiko Kyuba and Jongho Lee and
+              Kartik Mathur and Petter Merok and Nani Paananen and Vesa-Matti Paananen and Anna Pavlenko and Bruno Pereira Vidal and
               Luciano Strika and Yueh Tsao and Davide Turcato and Oleksandr Vakhno and Judit Velcsov and Anna Vickers and Ishaan Watts and 
               Stephanie Visser and Herdyan Widarmanto and Tua Wongsangaroonsri and Andrey Zaikin and Minghui Zhang and
               Si-Qing Chen},
@@ -92,7 +92,7 @@ along with the original RTP paper:
 }
 ```
 
-The components for Hebrew, Danish and Brazilian Portuguese come from the [Offensive Hebrew Corpus](https://github.com/SinaLab/OffensiveHebrew/tree/main), [DKHate](https://aclanthology.org/2020.lrec-1.430/) and [ToLD-BR](https://github.com/JAugusto97/ToLD-Br) corpora, respectively. Please consider citing their work as well:
+Some components for Hebrew, Danish, Korean and Brazilian Portuguese come from the [Offensive Hebrew Corpus](https://github.com/SinaLab/OffensiveHebrew/tree/main), [DKHate](https://aclanthology.org/2020.lrec-1.430/), [BEEP!](https://github.com/kocohub/korean-hate-speech/tree/master) and [ToLD-BR](https://github.com/JAugusto97/ToLD-Br) corpora, respectively. Please consider citing their work as well:
 
 ```
 @inproceedings{
@@ -117,6 +117,20 @@ The components for Hebrew, Danish and Brazilian Portuguese come from the [Offens
     pages = "3498--3508",
     language = "English",
     ISBN = "979-10-95546-34-4",
+}
+
+@inproceedings{moon-etal-2020-beep,
+    title = "{BEEP}! {K}orean Corpus of Online News Comments for Toxic Speech Detection",
+    author = "Moon, Jihyung  and
+      Cho, Won Ik  and
+      Lee, Junbum",
+    booktitle = "Proceedings of the Eighth International Workshop on Natural Language Processing for Social Media",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.socialnlp-1.4",
+    pages = "25--31",
 }
 
 @inproceedings{ToLDBR,
