@@ -1,0 +1,139 @@
+{
+    "name": "rtp-lx",
+    "title": "",
+    "description": "RTP-LX is a dataset of toxic prompts and passages in 26 languages. It is designed for toxic language detection. Each prompt has been transcreated and annotated by native speakers, and includes both usual offensive content in addition to manually-designed prompts containing offensive content specific to the culture.",
+    "doi": "",
+    "version": "0.0.1",
+    "created": "September 2023",
+    "licenses": [
+        {
+            "title": "Creative Commons Attribution-NonCommercial 4.0",
+            "name": "CC-BY-NC-4.0",
+            "path": "https://creativecommons.org/licenses/by-nc/4.0/"
+        },
+        {
+            "title": "MIT License",
+            "name": "MIT",
+            "path": "https://opensource.org/licenses/MIT"
+        },
+        {
+            "title": "Apache Software License 2.0",
+            "name": "Apache-2.0",
+            "path": "https://opensource.org/licenses/Apache-2.0"
+        }
+    ],
+    "sources": [],
+    "resources": [
+        {
+            "name": "RTP-LX/*.json",
+            "description": "Files corresponding to RTP-LX on each language",
+            "path": "RTP-LX",
+            "doi": "",
+            "format": "JSON",
+            "mediatype": "text/markdown",
+            "bytes": "",
+            "date": "September 2023",
+            "encoding": "",
+            "version": "0.0.1",
+            "language": "",
+            "schema": [
+                {
+                    "name": "Prompt",
+                    "type": "string",
+                    "description": "The prompt"
+                },
+                {
+                    "name": "Completion",
+                    "type": "string",
+                    "description": "A completion based on the prompt"
+                },
+                {
+                    "name": "Index",
+                    "type": "integer",
+                    "description": ""
+                },
+                {
+                    "name": "Locale",
+                    "type": "enum",
+                    "description": "Main language of the prompt/completion"
+                },
+                {
+                    "name": "Dialect",
+                    "type": "string",
+                    "description": "Dialect of the prompt/completion"
+                },
+                {
+                    "name": "OriginalMetadata",
+                    "type": "Json",
+                    "description": "Any of the original metadata if the file has a correspondence with the original RTP"
+                },
+                {
+                    "name": "PromptAnnotations",
+                    "type": "Json",
+                    "description": "The annotations for the prompt. All Likert scale (1-5)\nCategories:\n- Toxicity\n- IdentityAttack\n- Bias\n- Microaggression\n- Violence\n- SelfHarm\n- Insult\n- SexualContent\n"
+                },
+                {
+                    "name": "PromptAnnotationsRaw",
+                    "type": "Json",
+                    "description": "The raw annotations for the prompt, as an array. Each entry is in a Likert scale (1-5)\nCategories:\n- Toxicity\n- IdentityAttack\n- Bias\n- Microaggression\n- Violence\n- SelfHarm\n- Insult\n- SexualContent\n"
+                },
+                {
+                    "name": "CompletionAnnotations",
+                    "type": "Json",
+                    "description": "The annotations for the completion. All Likert scale (1-5)\nCategories:\n- Toxicity\n- IdentityAttack\n- Bias\n- Microaggression\n- Violence\n- SelfHarm\n- Insult\n- SexualContent\n"
+                },
+                {
+                    "name": "CompletionAnnotationsRaw",
+                    "type": "Json",
+                    "description": "The raw annotations for the completion, as an array. Each entry is in a Likert scale (1-5)\nCategories:\n- Toxicity\n- IdentityAttack\n- Bias\n- Microaggression\n- Violence\n- SelfHarm\n- Insult\n- SexualContent\n"
+                }
+            ],
+            "dialect": {}
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Applied Scientist",
+            "path": "",
+            "email": "adewynter@microsoft.com",
+            "role": "author"
+        }
+    ],
+    "privacy": [
+        {
+            "notice": {
+                "path": "",
+                "description": ""
+            },
+            "useTerms": {
+                "path": "",
+                "description": ""
+            },
+            "sensitivity": {
+                "description": "",
+                "types": []
+            },
+            "confidentiality": {
+                "path": "",
+                "description": ""
+            },
+            "assessments": []
+        }
+    ],
+    "security": [],
+    "procedures": {
+        "collection": [],
+        "processing": [],
+        "update": []
+    },
+    "use": [
+        {
+            "description": "Tests for service block rates",
+            "examples": []
+        },
+        {
+            "description": "Toxicity analysis in a multilingual scenario",
+            "examples": []
+        }
+    ]
+}
