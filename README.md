@@ -67,7 +67,7 @@ If you use our work, please consider citing our paper
               Pavel Gajdusek and Qilong Gu and Anna Kaminska and Tomasz Kaminski and Ruby Kuo and Akiko Kyuba and Jongho Lee and
               Kartik Mathur and Petter Merok and Nani Paananen and Vesa-Matti Paananen and Anna Pavlenko and Bruno Pereira Vidal and
               Luciano Strika and Yueh Tsao and Davide Turcato and Oleksandr Vakhno and Judit Velcsov and Anna Vickers and Ishaan Watts and 
-              Stephanie Visser and Herdyan Widarmanto and Tua Wongsangaroonsri and Andrey Zaikin and Minghui Zhang and
+              St\'{e}phanie Visser and Herdyan Widarmanto and Tua Wongsangaroonsri and Andrey Zaikin and Minghui Zhang and
               Si-Qing Chen},
     title = {{RTP-LX}: Guardrails are Effective in Multilingual Scenarios},
     volume = {ArXiv},
