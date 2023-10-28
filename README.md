@@ -54,6 +54,9 @@ RTP-LX is annotated in the following categories:
 - Sexual content
 - Overall toxicity
 
+## Updates:
+- (Sep '23): V0.1 released! Prompts for ES, FR, DE, IT, JA, PT (br), ZH (simplified), AR and CS.
+
 ## Citation
 
 If you use our work, please consider citing our paper
