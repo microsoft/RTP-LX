@@ -102,15 +102,15 @@
     "privacy": [
         {
             "notice": {
-                "path": "",
-                "description": ""
+                "path": "./README.md",
+                "description": "Offensive content warning"
             },
             "useTerms": {
-                "path": "",
-                "description": ""
+                "path": "./README.md",
+                "description": "This data may not be used in any system that could cause harm, or used in surveillance applications."
             },
             "sensitivity": {
-                "description": "",
+                "description": "This data is extremely toxic and only intended for toxic language detection",
                 "types": []
             },
             "confidentiality": {
@@ -124,7 +124,20 @@
     "procedures": {
         "collection": [],
         "processing": [],
-        "update": []
+        "update": [
+            {
+                "contributor": [
+                    {
+                        "title": "Applied Scientist",
+                        "path": "",
+                        "email": "adewynter@microsoft.com",
+                        "role": "author"
+                    }
+                ],
+                "path": "RTP-LX/*.json",
+                "description": "Four updates are planned outside of any maintenance updates, to include the rest of the languages and the passages."
+            }
+        ]
     },
     "use": [
         {
