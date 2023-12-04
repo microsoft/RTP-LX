@@ -10,18 +10,20 @@ _NOTE: this is a work in progress. Expect this to be updated soon!_
 
 ## What is RTP-LX?
 RTP LX is a multilingual set of 1k+ (per locale) toxic prompts and passages designed for toxicity evaluation. It is manually translated from a subset of the original RTP dataset, and annotated by native speakers. It also includes:
+- Coverage in 27 languages
 - Manually designed prompts that are considered "hard" to translate to English, and could be considered offensive in the language's geolocale.
 - Translations may include dialect-specific indications (e.g., Levantine Arabic, Brazilian Portuguese)
 
 
 ## Languages covered
-RTP-LX currently covers 24 languages:
+RTP-LX currently covers 27 languages:
 
-- Arabic (Levantine, Egyptian, Saudi)
+- Arabic (Egyptian, Levantine, Saudi)
 - Chinese (simplified, traditional)
 - Czech
 - Danish
 - Dutch
+- English
 - Finnish
 - French (France)
 - German
@@ -34,9 +36,11 @@ RTP-LX currently covers 24 languages:
 - Korean
 - Norwegian (Bokmål)
 - Polish
-- Portuguese (Brazilian, Portugal)
-- Russian (Ukraine, Russia)
+- Portuguese (Brazilian, Portuguese)
+- Russian (Russia, Ukraine)
+- Serbian (TBD)
 - Spanish (Spain)
+- Swahili (TBD)
 - Swedish
 - Thai
 - Turkish
@@ -56,6 +60,7 @@ RTP-LX is annotated in the following categories:
 
 ## Updates:
 - (Sep '23): V0.1 released! Prompts for ES, FR, DE, IT, JA, PT (br), ZH (simplified), AR and CS.
+- (Dec '24): V0.2 released! Added 19 more languages, and included PT (pt) prompts. Note that Serbian/Swahili are projected for a later date.
 
 ## Citation
 
@@ -64,7 +69,7 @@ If you use our work, please consider citing our paper
 ```
 @misc{rtplx,
     author = {Adrian de Wynter and Noura Farra and Nektar Altintoprak and Lena Baur and Samantha Claudet and
-              Pavel Gajdusek and Qilong Gu and Anna Kaminska and Tomasz Kaminski and Ruby Kuo and Akiko Kyuba and Jongho Lee and
+              Pavel Gajdusek and Qilong Gu and Anna Kaminska and Tomasz Kaminski and Ruby Kuo and Akiko Kyuba and Jongho Lee and Ivana Milovanovic and 
               Kartik Mathur and Petter Merok and Nani Paananen and Vesa-Matti Paananen and Anna Pavlenko and Bruno Pereira Vidal and
               Luciano Strika and Yueh Tsao and Davide Turcato and Oleksandr Vakhno and Judit Velcsov and Anna Vickers and Ishaan Watts and 
               St\'{e}phanie Visser and Herdyan Widarmanto and Tua Wongsangaroonsri and Andrey Zaikin and Minghui Zhang and
