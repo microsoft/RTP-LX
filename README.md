@@ -19,6 +19,7 @@ RTP LX is a multilingual set of 1k+ (per locale) toxic prompts and passages desi
 RTP-LX currently covers 27 languages:
 
 - Arabic (Egyptian, Levantine, Saudi)
+- BCMS
 - Chinese (simplified, traditional)
 - Czech
 - Danish
@@ -38,9 +39,8 @@ RTP-LX currently covers 27 languages:
 - Polish
 - Portuguese (Brazilian, Portuguese)
 - Russian (Russia, Ukraine)
-- Serbian (TBD)
 - Spanish (Spain)
-- Swahili (TBD)
+- Swahili
 - Swedish
 - Thai
 - Turkish
@@ -58,9 +58,14 @@ RTP-LX is annotated in the following categories:
 - Sexual content
 - Overall toxicity
 
+## Uncompressing
+
+To avoid crawlers, we have zipped and password-protected the entries. Please use the name of the repo all in lowercase plus "-entries" and `-1/4/24` as the password. So if the repo is "ASDF-BLAH", you want `asdf-blah-entries-1/4/24`.
+
 ## Updates:
 - (Sep '23): V0.1 released! Prompts for ES, FR, DE, IT, JA, PT (br), ZH (simplified), AR and CS.
-- (Dec '24): V0.2 released! Added 19 more languages, and included PT (pt) prompts. Note that Serbian/Swahili are projected for a later date.
+- (Dec '23): V0.2 released! Added 19 more languages, and included PT (pt) prompts. Note that BCMS/Swahili are projected for a later date.
+- (Jan '24): V0.3 released! Added SW/BCMS. Compressed to file. Passages to come soon.
 
 ## Citation
 
