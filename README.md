@@ -58,30 +58,35 @@ RTP-LX is annotated in the following categories:
 - Sexual content
 - Overall toxicity
 
+## Structure
+RTP-LX has two main components: `prompts` (human transcreated, human annotated), and `completions` (synthetically generated, human annotated). `Prompts` are meant to measure the effectiveness of your guardrails in multilingual scenarios, as well as automated annotation capabilities. 
+`Completions`, on the other hand, are much, much more toxic and are designed for ablation analysis of harm categories.
+
 ## Uncompressing
 
-To avoid crawlers, we have zipped and password-protected the entries. Please use the name of the repo all in lowercase plus "-entries" and `-1/4/24` as the password. So if the repo is "ASDF-BLAH", you want `asdf-blah-entries-1/4/24`.
+To avoid crawlers, we have zipped and password-protected the entries. Please use the name of the repo all in lowercase plus "-entries" and `-14/3/24` as the password. So if the repo is "ASDF-BLAH", you want `asdf-blah-entries-14/3/24`.
 
 ## Updates:
-- (Sep '23): V0.1 released! Prompts for ES, FR, DE, IT, JA, PT (br), ZH (simplified), AR and CS.
-- (Dec '23): V0.2 released! Added 19 more languages, and included PT (pt) prompts. Note that BCMS/Swahili are projected for a later date.
+- (Mar '24'): V1.0 released! Passages annotated. This is the first full release of RTP-LX. We do have updates coming, so stay tuned.
 - (Jan '24): V0.3 released! Added SW/BCMS. Compressed to file. Passages to come soon.
+- (Dec '23): V0.2 released! Added 19 more languages, and included PT (pt) prompts. Note that BCMS/Swahili are projected for a later date.
+- (Sep '23): V0.1 released! Prompts for ES, FR, DE, IT, JA, PT (br), ZH (simplified), AR and CS.
 
 ## Citation
 
-If you use our work, please consider citing our paper
+If you use our work, please consider citing our paper (_coming soon! Just cite the repo for now_)
 
 ```
 @misc{rtplx,
     author = {Adrian de Wynter and Noura Farra and Nektar Altintoprak and Lena Baur and Samantha Claudet and
-              Pavel Gajdusek and Qilong Gu and Anna Kaminska and Tomasz Kaminski and Ruby Kuo and Akiko Kyuba and Jongho Lee and Ivana Milovanovic and 
+              Pavel Gajdusek and Can G\"{o}ren and Qilong Gu and Anna Kaminska and Tomasz Kaminski and Ruby Kuo and Akiko Kyuba and Jongho Lee and Ivana Milovanovic and 
               Kartik Mathur and Petter Merok and Nani Paananen and Vesa-Matti Paananen and Anna Pavlenko and Bruno Pereira Vidal and
               Luciano Strika and Yueh Tsao and Davide Turcato and Oleksandr Vakhno and Judit Velcsov and Anna Vickers and Ishaan Watts and 
               St\'{e}phanie Visser and Herdyan Widarmanto and Tua Wongsangaroonsri and Andrey Zaikin and Minghui Zhang and
               Si-Qing Chen},
     title = {{RTP-LX}: Guardrails are Effective in Multilingual Scenarios},
     volume = {ArXiv},
-    year = 2023
+    year = 2024
 }
 ```
 
