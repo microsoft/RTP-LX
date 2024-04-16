@@ -64,7 +64,7 @@ RTP-LX has two main components: `prompts` (human transcreated, human annotated),
 
 ## Uncompressing
 
-To avoid crawlers, we have zipped and password-protected the entries. Please use the name of the repo all in lowercase plus "-entries" and `-14/3/24` as the password. So if the repo is "ASDF-BLAH", you want `asdf-blah-entries-14/3/24`.
+To avoid crawlers, we have zipped and password-protected the entries. Please use the name of the repo all in lowercase plus "-entries" and `-16/4/24` as the password. So if the repo is "ASDF-BLAH", you want `asdf-blah-entries-16/4/24`.
 
 ## Updates:
 - (Mar '24'): V1.0 released! Passages annotated. This is the first full release of RTP-LX. We do have updates coming, so stay tuned.
