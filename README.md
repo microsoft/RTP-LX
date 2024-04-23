@@ -1,16 +1,15 @@
 # RTP-LX
 
-_Dataset for the paper "RTP-LX: Guardrails are Effective in Multilingual Scenarios", by De Wynter et al._
+_Dataset for the paper [RTP-LX: Can LLMs Evaluate Toxicity in Multilingual Scenarios?](https://arxiv.org/abs/2404.14397), by De Wynter et al._
 
 _NOTE: this is a work in progress. Expect this to be updated soon!_
-
 
 **WARNING: This repository contains and discusses content that is offensive or upsetting. All materials are intended to support research that improves toxicity detection methods. Included examples of toxicity do not represent how the authors or sponsors feel about any identity groups. This corpus was made by a multi-national, multi-cultural team of various faiths, beliefs, and origins. Please note that toxicity is dynamic, evolves with societal perceptions, and these labels may change.**
 
 
 ## What is RTP-LX?
 RTP LX is a multilingual set of 1k+ (per locale) toxic prompts and passages designed for toxicity evaluation. It is manually translated from a subset of the original RTP dataset, and annotated by native speakers. It also includes:
-- Coverage in 27 languages
+- Coverage in 27 languages (28 because we split ZH-Hans and ZH-Hant)
 - Manually designed prompts that are considered "hard" to translate to English, and could be considered offensive in the language's geolocale.
 - Translations may include dialect-specific indications (e.g., Levantine Arabic, Brazilian Portuguese)
 
@@ -67,7 +66,8 @@ RTP-LX has two main components: `prompts` (human transcreated, human annotated),
 To avoid crawlers, we have zipped and password-protected the entries. Please use the name of the repo all in lowercase plus "-entries" and `-16/4/24` as the password. So if the repo is "ASDF-BLAH", you want `asdf-blah-entries-16/4/24`.
 
 ## Updates:
-- (Mar '24'): V1.0 released! Passages annotated. This is the first full release of RTP-LX. We do have updates coming, so stay tuned.
+- (Apr '22): Paper released!
+- (Mar '24): V1.0 released! Passages annotated. This is the first full release of RTP-LX. We do have updates coming, so stay tuned.
 - (Jan '24): V0.3 released! Added SW/BCMS. Compressed to file. Passages to come soon.
 - (Dec '23): V0.2 released! Added 19 more languages, and included PT (pt) prompts. Note that BCMS/Swahili are projected for a later date.
 - (Sep '23): V0.1 released! Prompts for ES, FR, DE, IT, JA, PT (br), ZH (simplified), AR and CS.
@@ -78,16 +78,15 @@ If you use our work, please consider citing our paper (_coming soon! Just cite t
 
 ```
 @misc{rtplx,
-    author = {Adrian de Wynter and Noura Farra and Nektar Altintoprak and Lena Baur and Samantha Claudet and
-              Pavel Gajdusek and Can G\"{o}ren and Qilong Gu and Anna Kaminska and Tomasz Kaminski and Ruby Kuo and Akiko Kyuba and Jongho Lee and Ivana Milovanovic and 
-              Kartik Mathur and Petter Merok and Nani Paananen and Vesa-Matti Paananen and Anna Pavlenko and Bruno Pereira Vidal and
-              Luciano Strika and Yueh Tsao and Davide Turcato and Oleksandr Vakhno and Judit Velcsov and Anna Vickers and Ishaan Watts and 
-              St\'{e}phanie Visser and Herdyan Widarmanto and Tua Wongsangaroonsri and Andrey Zaikin and Minghui Zhang and
-              Si-Qing Chen},
-    title = {{RTP-LX}: Guardrails are Effective in Multilingual Scenarios},
+    author = {Adrian de Wynter and Ishaan Watts and Nektar Ege Alt{\i}ntoprak and Tua Wongsangaroonsri and Minghui Zhang and Noura Farra and Lena Baur and Samantha Claudet and Pavel Gajdusek and Can G\"oren and Qilong Gu and Anna Kaminska and Tomasz Kaminski and Ruby Kuo and Akiko Kyuba and Jongho Lee and Kartik Mathur and Petter Merok and Ivana Milovanovi\'c and Nani Paananen and Vesa-Matti Paananen and Anna Pavlenko and Bruno Pereira Vidal and Luciano Strika and Yueh Tsao and Davide Turcato and Oleksandr Vakhno and Judit Velcsov and Anna Vickers and St\'ephanie Visser and Herdyan Widarmanto and Andrey Zaikin and Si-Qing Chen},
+    title = {{RTP-LX}: Can {LLMs} Evaluate Toxicity in Multilingual Scenarios?},
     volume = {ArXiv},
+    url = {https://arxiv.org/abs/2404.14397},
+    volume={abs/2404.14397},
+    doi={10.48550/arXiv.2404.14397}
     year = 2024
 }
+
 ```
 
 along with the original RTP paper:
