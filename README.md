@@ -2,7 +2,7 @@
 
 _Dataset for the paper [RTP-LX: Can LLMs Evaluate Toxicity in Multilingual Scenarios?](https://arxiv.org/abs/2404.14397), by De Wynter et al._
 
-_NOTE: this is a work in progress. Expect this to be updated soon!_
+_NOTE: This repo is actively updated!_
 
 **WARNING: This repository contains and discusses content that is offensive or upsetting. All materials are intended to support research that improves toxicity detection methods. Included examples of toxicity do not represent how the authors or sponsors feel about any identity groups. This corpus was made by a multi-national, multi-cultural team of various faiths, beliefs, and origins. Please note that toxicity is dynamic, evolves with societal perceptions, and these labels may change.**
 
@@ -58,15 +58,20 @@ RTP-LX is annotated in the following categories:
 - Overall toxicity
 
 ## Structure
-RTP-LX has two main components: `prompts` (human transcreated, human annotated), and `completions` (synthetically generated, human annotated). `Prompts` are meant to measure the effectiveness of your guardrails in multilingual scenarios, as well as automated annotation capabilities. 
-`Completions`, on the other hand, are much, much more toxic and are designed for ablation analysis of harm categories.
+RTP-LX has two main components: `prompts` (human transcreated, human annotated), and `completions` (synthetically generated, human annotated).
+- `Prompts` are meant to measure the effectiveness of your guardrails in multilingual scenarios, as well as automated annotation capabilities. 
+- `Completions`, on the other hand, are much, much more toxic and are designed for ablation analysis of harm categories.
+- `BenignCompletions` are human-written completions -- perfect for DPO!
+- `PromptAnnotations` and `CompletionsAnnotations` contain the aggregated (majority vote) scores for the users. 
+
 
 ## Uncompressing
 
-To avoid crawlers, we have zipped and password-protected the entries. Please use the name of the repo all in lowercase plus "-entries" and `-16/4/24` as the password. So if the repo is "ASDF-BLAH", you want `asdf-blah-entries-16/4/24`.
+To avoid crawlers, we have zipped and password-protected the entries. Please use the name of the repo all in lowercase plus "-entries" and `-1/5/24` as the password. So if the repo is "ASDF-BLAH", you want `asdf-blah-entries-1/5/24`.
 
 ## Updates:
-- (Apr '22): Paper released!
+- (May '24): Benign set released, scoring updated to what we described in the paper.
+- (Apr '24): Paper released!
 - (Mar '24): V1.0 released! Passages annotated. This is the first full release of RTP-LX. We do have updates coming, so stay tuned.
 - (Jan '24): V0.3 released! Added SW/BCMS. Compressed to file. Passages to come soon.
 - (Dec '23): V0.2 released! Added 19 more languages, and included PT (pt) prompts. Note that BCMS/Swahili are projected for a later date.
