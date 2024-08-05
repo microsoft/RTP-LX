@@ -97,7 +97,7 @@ If you use our work, please consider citing our paper:
 
 ```
 @article{rtplx,
-    author = {Adrian de Wynter and Ishaan Watts and Tua Wongsangaroonsri and Minghui Zhang and Noura Farra and Nektar Ege Alt{\i}ntoprak and Lena Baur and Samantha Claudet and Pavel Gajdusek and Can G\"oren and Qilong Gu and Anna Kaminska and Tomasz Kaminski and Ruby Kuo and Akiko Kyuba and Jongho Lee and Kartik Mathur and Petter Merok and Ivana Milovanovi\'c and Nani Paananen and Vesa-Matti Paananen and Anna Pavlenko and Bruno Pereira Vidal and Luciano Strika and Yueh Tsao and Davide Turcato and Oleksandr Vakhno and Judit Velcsov and Anna Vickers and St\'ephanie Visser and Herdyan Widarmanto and Andrey Zaikin and Si-Qing Chen and Sunayana Sitaram},
+    author = {Adrian de Wynter and Ishaan Watts and Tua Wongsangaroonsri and Minghui Zhang and Noura Farra and Nektar Ege Alt{\i}ntoprak and Lena Baur and Samantha Claudet and Pavel Gajdusek and Can G\"oren and Qilong Gu and Anna Kaminska and Tomasz Kaminski and Ruby Kuo and Akiko Kyuba and Jongho Lee and Kartik Mathur and Petter Merok and Ivana Milovanovi\'c and Nani Paananen and Vesa-Matti Paananen and Anna Pavlenko and Bruno Pereira Vidal and Luciano Strika and Yueh Tsao and Davide Turcato and Oleksandr Vakhno and Judit Velcsov and Anna Vickers and St\'ephanie Visser and Herdyan Widarmanto and Andrey Zaikin and Si-Qing Chen},
     title = {{RTP-LX}: Can {LLMs} Evaluate Toxicity in Multilingual Scenarios?},
     volume = {ArXiv},
     url = {https://arxiv.org/abs/2404.14397},
