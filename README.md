@@ -9,24 +9,28 @@ _NOTE: This repo is actively updated!_
 
 ## What is RTP-LX?
 RTP LX is a multilingual set of 1k+ (per locale) toxic prompts and passages designed for toxicity evaluation. It is manually translated from a subset of the original RTP dataset, and annotated by native speakers. It also includes:
-- Coverage in 27 languages (28 because we split ZH-Hans and ZH-Hant)
+- Coverage in 38 languages (but more files because graphically-distinct dialects like ZH-Hans vs. ZH-Hant and DE-de vs. DE-ch are treated separately)
 - Manually designed prompts that are considered "hard" to translate to English, and could be considered offensive in the language's geolocale.
 - Translations may include dialect-specific indications (e.g., Levantine Arabic, Brazilian Portuguese)
 
 
 ## Languages covered
-RTP-LX currently covers 27 languages:
+RTP-LX currently covers 38 languages:
 
 - Arabic (Egyptian, Levantine, Saudi)
 - BCMS
-- Chinese (simplified, traditional)
+- Bulgarian*
+- Catalan*
+- Chinese (standard, simplified and standard, traditional)
 - Czech
 - Danish
 - Dutch
 - English
+- Estonian*
 - Finnish
 - French (France)
-- German
+- German (standard, Germany and standard, Switzerland*)
+- Greek
 - Hebrew
 - Hindi
 - Hungarian
@@ -34,17 +38,25 @@ RTP-LX currently covers 27 languages:
 - Italian
 - Japanese
 - Korean
+- Latvian*
+- Lithuanian*
 - Norwegian (Bokmål)
 - Polish
 - Portuguese (Brazilian, Portuguese)
+- Romanian*
 - Russian (Russia, Ukraine)
+- Slovak*
+- Slovenian*
 - Spanish (Spain)
 - Swahili
 - Swedish
 - Thai
 - Turkish
 - Ukrainian
+- Vietnamese*
+- Welsh*
 
+See Structure, below, for the languages marked with an asterisk (\*). 
 
 ## Harm Categories
 RTP-LX is annotated in the following categories:
@@ -63,13 +75,15 @@ RTP-LX has two main components: `prompts` (human transcreated, human annotated),
 - `Completions`, on the other hand, are much, much more toxic and are designed for ablation analysis of harm categories.
 - `BenignCompletions` are human-written completions -- perfect for DPO!
 - `PromptAnnotations` and `CompletionsAnnotations` contain the aggregated (majority vote) scores for the users. 
+- The languages marked with an asterisk (\*) do not contain `Completions` or the culturally-specific prompts (budgetary reasons)
 
 
 ## Uncompressing
 
-To avoid crawlers, we have zipped and password-protected the entries. Please use the name of the repo all in lowercase plus "-entries" and `-1/5/24` as the password. So if the repo is "ASDF-BLAH", you want `asdf-blah-entries-1/5/24`.
+To avoid crawlers, we have zipped and password-protected the entries. Please use the name of the repo all in lowercase plus "-entries" and `-4/8/24` as the password. So if the repo is "ASDF-BLAH", you want `asdf-blah-entries-4/8/24`.
 
 ## Updates:
+- (August '24): V1.5 released! Added 11 new languages: BG, CA, ET, HE, LV, LT, RO, SK, SL, VI, CY and one dialect (DE-CH)
 - (May '24): Benign set released, scoring updated to what we described in the paper.
 - (Apr '24): Paper released!
 - (Mar '24): V1.0 released! Passages annotated. This is the first full release of RTP-LX. We do have updates coming, so stay tuned.
@@ -83,7 +97,7 @@ If you use our work, please consider citing our paper:
 
 ```
 @article{rtplx,
-    author = {Adrian de Wynter and Ishaan Watts and Nektar Ege Alt{\i}ntoprak and Tua Wongsangaroonsri and Minghui Zhang and Noura Farra and Lena Baur and Samantha Claudet and Pavel Gajdusek and Can G\"oren and Qilong Gu and Anna Kaminska and Tomasz Kaminski and Ruby Kuo and Akiko Kyuba and Jongho Lee and Kartik Mathur and Petter Merok and Ivana Milovanovi\'c and Nani Paananen and Vesa-Matti Paananen and Anna Pavlenko and Bruno Pereira Vidal and Luciano Strika and Yueh Tsao and Davide Turcato and Oleksandr Vakhno and Judit Velcsov and Anna Vickers and St\'ephanie Visser and Herdyan Widarmanto and Andrey Zaikin and Si-Qing Chen},
+    author = {Adrian de Wynter and Ishaan Watts and Tua Wongsangaroonsri and Minghui Zhang and Noura Farra and Nektar Ege Alt{\i}ntoprak and Lena Baur and Samantha Claudet and Pavel Gajdusek and Can G\"oren and Qilong Gu and Anna Kaminska and Tomasz Kaminski and Ruby Kuo and Akiko Kyuba and Jongho Lee and Kartik Mathur and Petter Merok and Ivana Milovanovi\'c and Nani Paananen and Vesa-Matti Paananen and Anna Pavlenko and Bruno Pereira Vidal and Luciano Strika and Yueh Tsao and Davide Turcato and Oleksandr Vakhno and Judit Velcsov and Anna Vickers and St\'ephanie Visser and Herdyan Widarmanto and Andrey Zaikin and Si-Qing Chen and Sunayana Sitaram},
     title = {{RTP-LX}: Can {LLMs} Evaluate Toxicity in Multilingual Scenarios?},
     volume = {ArXiv},
     url = {https://arxiv.org/abs/2404.14397},
