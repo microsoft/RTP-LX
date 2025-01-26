@@ -1,0 +1,11 @@
+irrcac
+scipy==1.10
+tqdm
+matplotlib
+scikit-learn
+streamlit
+transformers
+torch
+openai
+python-dotenv
+backoff
