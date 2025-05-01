@@ -96,7 +96,8 @@ To avoid crawlers, we have zipped and password-protected the entries. Please use
 
 If you use our work, please consider citing our paper. Proper Bibtex is [here](https://ojs.aaai.org/index.php/AAAI/article/view/35011), but this one is fixed to be less unwieldy:
 
-```@article{rtplx,
+```
+@article{rtplx,
     title={RTP-LX: Can LLMs Evaluate Toxicity in Multilingual Scenarios?},
     volume={39},
     url={https://ojs.aaai.org/index.php/AAAI/article/view/35011},
