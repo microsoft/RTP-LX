@@ -94,18 +94,20 @@ To avoid crawlers, we have zipped and password-protected the entries. Please use
 
 ## Citation
 
-If you use our work, please consider citing our paper:
+If you use our work, please consider citing our paper. Proper Bibtex is [here](https://ojs.aaai.org/index.php/AAAI/article/view/35011), but this one is fixed to be less unwieldy:
 
-```
-@article{rtplx,
-    author = {Adrian de Wynter and Ishaan Watts and Tua Wongsangaroonsri and Minghui Zhang and Noura Farra and Nektar Ege Alt{\i}ntoprak and Lena Baur and Samantha Claudet and Pavel Gajdusek and Can G\"oren and Qilong Gu and Anna Kaminska and Tomasz Kaminski and Ruby Kuo and Akiko Kyuba and Jongho Lee and Kartik Mathur and Petter Merok and Ivana Milovanovi\'c and Nani Paananen and Vesa-Matti Paananen and Anna Pavlenko and Bruno Pereira Vidal and Luciano Strika and Yueh Tsao and Davide Turcato and Oleksandr Vakhno and Judit Velcsov and Anna Vickers and St\'ephanie Visser and Herdyan Widarmanto and Andrey Zaikin and Si-Qing Chen},
-    title = {{RTP-LX}: Can {LLMs} Evaluate Toxicity in Multilingual Scenarios?},
-    volume = {AAAI AISI},
-    url = {https://openreview.net/forum?id=ZC0Hs5QyCw},
-    volume={AAAI},
-    year = 2025
+```@article{rtplx,
+    title={RTP-LX: Can LLMs Evaluate Toxicity in Multilingual Scenarios?},
+    volume={39},
+    url={https://ojs.aaai.org/index.php/AAAI/article/view/35011},
+    DOI={10.1609/aaai.v39i27.35011},
+    number={27},
+    journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+    author={de Wynter, Adrian and Watts, Ishaan and Wongsangaroonsri, Tua and Zhang, Minghui and Farra, Noura and Altıntoprak, Nektar Ege and Baur, Lena and Claudet, Samantha and Gajdušek, Pavel and Gu, Qilong and Kaminska, Anna and Kaminski, Tomasz and Kuo, Ruby and Kyuba, Akiko and Lee, Jongho and Mathur, Kartik and Merok, Petter and Milovanović, Ivana and Paananen, Nani and Paananen, Vesa-Matti and Pavlenko, Anna and Vidal, Bruno Pereira and Strika, Luciano Ivan and Tsao, Yueh and Turcato, Davide and Vakhno, Oleksandr and Velcsov, Judit and Vickers, Anna and Visser, Stéphanie F. and Widarmanto, Herdyan and Zaikin, Andrey and Chen, Si-Qing},
+    year={2025},
+    month={Apr.},
+    pages={27940-27950}
 }
-
 ```
 
 along with the original RTP paper:
